@@ -1,0 +1,17 @@
+.section__clipboard {
+    text-align: center;
+    margin-bottom: 8em;
+    width: 100%;
+
+    & h2 {
+        font-size: 1.7rem;
+        color: $clr__neutral--drakgray;
+        margin-bottom: .5em;
+    }
+
+    & p {
+        font-size: 1rem;
+        color: $clr__neutral--gray;
+        margin-bottom: 3em;
+    }
+}

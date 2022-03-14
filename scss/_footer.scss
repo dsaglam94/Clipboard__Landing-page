@@ -1,0 +1,49 @@
+.footer {
+    background-color: $clr__neutral--gray-200;
+    text-align: center;
+    padding-block: 4em;
+
+    &__logo {
+        width: 4rem;
+        margin-bottom: 1.5em;
+    }
+
+    &__list {
+        list-style: none;
+
+        & li {
+            margin-top: 1.5em;
+        }
+    }
+
+    &__links {
+        text-decoration: none;
+        color: $clr__neutral--drakgray;
+
+        &:hover {
+            color: $clr__primary--cyan;
+        }
+    }
+
+    &__social-links {
+        margin-block: 3em;
+
+        & a {
+            color: $clr__neutral--drakgray;
+            padding-inline: 1em;
+
+            &:hover {
+                color: $clr__primary--cyan;
+            }
+        }
+    }
+
+    .attribution {
+        font-size: .7rem;
+        color: $clr__neutral--gray;
+        
+        & a {
+            color: $clr__primary--cyan;
+        }
+    }
+}

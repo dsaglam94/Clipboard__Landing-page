@@ -1,0 +1,24 @@
+.header {
+    padding-block: 8em;
+    background: url(../images/bg-header-mobile.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+
+    &__logo {
+        margin-bottom: 4em;
+    }
+
+    &__title {
+        font-size: 2rem;
+        color: $clr__neutral--drakgray;
+        margin-bottom: 1.5em;
+    }
+
+    &__paragraph {
+        color: $clr__neutral--gray;
+        font-size: 1rem;
+        margin-bottom: 3em;
+    }
+}

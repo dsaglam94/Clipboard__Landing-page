@@ -1,0 +1,95 @@
+@import 'variables';
+@import 'config';
+@import 'components';
+@import 'header';
+@import 'sub__main';
+@import 'aside';
+@import 'clipboard';
+@import 'footer';
+@import 'responsive';
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+    height: 100%;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+input, button, textarea, select {
+    font: inherit;
+}
+
+body {
+    height: 100%;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: $body__fs;
+}
+
+.main {
+    background-color: #fff;
+    text-align: center;
+
+
+    &__right h2,
+    & h2 {
+        color: $clr__neutral--drakgray;
+        font-size: 1.7rem;
+        margin-bottom: .5em;
+    }
+
+    &__top > p {
+        color: $clr__neutral--gray;
+        font-size: 1rem;
+        margin-bottom: 4em;
+    }
+
+    &__left {
+        width: 100%;
+        max-width: 600px;
+        margin-bottom: 4em;
+
+        &--image {
+            width: 100%;
+        }
+    }
+
+    &__right {
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+
+        & p {
+            color: $clr__neutral--gray;
+            font-size: 1rem;
+        }
+
+        & > p:where(:not(:last-child)) {
+            margin-bottom: 4em;
+        }
+
+        & > p:last-of-type {
+            margin-bottom: 8em;
+        }
+    }
+}
+
+
+

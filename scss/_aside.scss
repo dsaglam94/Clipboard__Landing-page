@@ -1,0 +1,11 @@
+.aside__brand--logo {
+    width: 7.5rem;
+}
+
+.aside__brand img:where(:not(:last-child)) {
+    margin-bottom: 5em;
+}
+
+.aside__brand img:last-child {
+    margin-bottom: 8em;
+}
